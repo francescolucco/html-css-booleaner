@@ -5,7 +5,7 @@
 
 .barra.logo {
   background-image: url(../img/pattern.png);
-  background-size:contain;
+  background: size 400px;;
   width: auto;
   height: 120px;
   background-color:royalblue;
@@ -16,8 +16,7 @@
 .logo-boolean {
 width: 20%;
 height: auto;
-position: relative;
-/* bottom: 100%; */
+
 }
 
 .nota, .sottotesto {
@@ -27,6 +26,7 @@ position: relative;
 .nota {
   font-size: 11px;}
 
-.legenda.tabella {
-  background-color:royalblue;
-}
+  .evidenziatura {
+    background-color: yellow;
+  }
+
